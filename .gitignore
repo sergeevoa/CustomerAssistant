@@ -1,2 +1,33 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+env/
+ENV/
+venv/
 .venv/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Logs and temp
+*.log
+*.tmp
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key

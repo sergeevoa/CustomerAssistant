@@ -49,7 +49,7 @@ async def register_check(message: Message):
                              'Зарегистрируйтесь ⬇️', reply_markup=kb.register_kb)
     else:
         # Если пользователь зарегистрирован, происходит вход в главное меню
-        await message.answer('Приветствуем Вас в *Customer_Assistant*', reply_markup=kb_menu.main_menu)
+        await message.answer('Здравствуйте! Что хотите заказать сегодня?', reply_markup=kb_menu.main_menu)
 
 
 # Обработчик нажатия кнопки "Зарегистрироваться"
